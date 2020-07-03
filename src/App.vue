@@ -1,20 +1,22 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <FileTable></FileTable>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TestDB></TestDB>
+    <TestButton></TestButton>
+    <DebugTable></DebugTable>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import FileTable from "./components/FileTable";
+import DebugTable from "./components/DebugTable";
+import TestButton from "./components/TestButton";
+import TestDB from "./components/TestDB";
 
 export default {
   name: 'App',
   components: {
-    HelloWorld,
-    FileTable
+    DebugTable,
+    TestButton,
+    TestDB
   }
 }
 </script>
